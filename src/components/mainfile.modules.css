@@ -1,0 +1,46 @@
+.mainDiv {
+  width: 99.1%;
+  height: 8vh;
+  border: 5px solid silver;
+  border-bottom: 2px solid silver !important;
+  display: flex;
+  justify-content: space-between;
+}
+.menu {
+  width: 30px;
+  height: 4px;
+  background-color: rgb(119, 110, 110);
+  margin: 6px 0;
+}
+.para {
+  font-family: Roboto;
+  font-size: small;
+  font-weight: bold;
+  margin-left: 50px;
+}
+.secondDiv {
+  height: 90vh;
+  width: 99.2%;
+}
+.subDiv {
+  height: 300px;
+  width: 70%;
+  background: rgb(197, 196, 196);
+  margin-left: 15%;
+}
+.arrow {
+  width: 30%;
+  background-color: #888282;
+  height: 5px;
+  margin-top: 25px !important;
+}
+.rotate90 {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  height: 20px;
+  margin-top: 17px;
+  margin-right: 5px;
+}
